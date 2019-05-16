@@ -1,0 +1,12 @@
+@media only screen and (max-width:800px){
+    .mainContent{
+ 
+    }
+
+    .container{
+        transform: rotate(90deg) translate(25vw,25vh);
+        height: 100vw;
+        width: 100vh;
+
+    }
+}
