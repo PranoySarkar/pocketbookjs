@@ -1,0 +1,16 @@
+.mainContent h1,
+.mainContent h2 ,
+.mainContent h3 ,
+.mainContent h4, 
+.mainContent h5, 
+.mainContent h6{
+    margin-top: 1rem;
+}
+
+.mainContent p{
+    margin: .5rem 0 1rem 0;
+}
+
+.mainContent{
+ text-align: justify;
+}

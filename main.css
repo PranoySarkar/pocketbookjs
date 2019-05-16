@@ -1,22 +1,89 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
-    font-size: 62.5% ;/*10px */
-    font-family: sans-serif;
+
+li {
+    list-style: none;
+}
+a,a:link,a:visited,a:focus{
+    text-decoration: none;
+    color: inherit;
 }
 
-.container{
+body {
+    font-size: 62.5%;
+    /*10px */
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --chapter-border-color: #d2d2d2;
+}
+
+.container {
     font-size: 1rem;
     display: grid;
     grid-template-columns: minmax(200px, 30%) 1fr;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.container .sidepanel{
-    background: beige;
+.container .sidepanel {
+    padding: 1rem;
+    display: grid;
+    overflow: hidden;
 }
 
-.container .mainContent{
+.container .sidepanel .header {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.container .sidepanel .header h2 {}
+
+.container .mainContent {}
+
+.chapter {
+    border: 1px solid var(--chapter-border-color);
+    border-radius: 5px;
+    padding-bottom: .5rem;
+    overflow: hidden;
+}
+
+.chapterAndLessons {
+    display: block;
+    overflow: auto;
+}
+
+.chapter:not(:last-child) {
+    margin-bottom: .5rem;
+}
+
+.chapterTitile {
+    font-size: 1.3rem;
+    font-weight: 600;
     background: aliceblue;
+    padding: 1rem;
+    
+}
+
+.lesson {
+    display: block;
+    margin-left: 2rem;
+    padding: 1rem 1rem;
+    background: #9e9e9e14;
+    margin: .2rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.mainContent{
+    background: #9e9e9e14;
+    padding: 1rem;
+    overflow: auto;
 }
