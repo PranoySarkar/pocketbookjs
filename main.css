@@ -51,6 +51,7 @@ body {
     border-radius: 5px;
     padding-bottom: .5rem;
     overflow: hidden;
+    margin-right: 5px;
 }
 
 .chapterAndLessons {
