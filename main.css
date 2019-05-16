@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 62.5% ;/*10px */
+    font-family: sans-serif;
+}
+
+.container{
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: minmax(200px, 30%) 1fr;
+}
+
+.container .sidepanel{
+    background: beige;
+}
+
+.container .mainContent{
+    background: aliceblue;
+}
