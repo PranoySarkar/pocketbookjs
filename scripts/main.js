@@ -3,7 +3,7 @@ function getBooks() {
     fetch('./assets/book.json')
         .then(res => res.json())
         .then(data => {
-            if(Router.isRoot()){
+            if(Router.isRoot() || false){
                 let firstBook=data;
                 Render.renderBook(firstBook);
             }
