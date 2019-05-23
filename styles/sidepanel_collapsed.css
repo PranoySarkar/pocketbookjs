@@ -1,0 +1,68 @@
+.sidepanel_collasped .chapter{
+    display: none;
+}
+
+.sidepanel_collasped .activeChapter{
+    display: block;
+}
+
+ .container .sidepanel_collasped .lesson {
+    display: none ;
+}
+
+.sidepanel_collasped .activeLesson  .lesson{
+    display: block;
+}
+
+.sidepanel_collasped .subHeading{
+    display: none;
+}
+
+.container .sidepanel_collasped{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4 , auto);
+    width: 5vw;
+    min-width: 7rem;
+    padding: .7rem;
+}
+
+.container .sidepanel_collasped  .showHideCheckBox{
+    grid-row: 1;
+    grid-column: 1;
+    writing-mode: vertical-lr;
+    display: flex;
+    align-items: center;
+}
+
+.container .sidepanel_collasped  .header{
+    grid-row: 2;
+    grid-column: 1;
+    writing-mode: vertical-lr;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.container .sidepanel_collasped  .chapterContainer{
+    grid-row: 3;
+    grid-column: 1;
+    writing-mode: vertical-rl;
+    display: flex;
+    align-items: center;
+    
+}
+
+.sidepanel_collasped .chapter .lesson {
+    text-align: center;
+    padding: 10px 2px;
+    margin: 0;
+    background: none;
+
+}
+
+
+.sidepanel_collasped .chapterContainer .chapterTitile {
+    text-align: center;
+    padding: 10px 3px;
+    background: none;
+}

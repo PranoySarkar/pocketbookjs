@@ -4,9 +4,5 @@
     }
 
     .container{
-        transform: rotate(90deg) translate(25vw,25vh);
-        height: 100vw;
-        width: 100vh;
-
     }
 }

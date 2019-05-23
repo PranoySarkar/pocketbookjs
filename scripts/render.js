@@ -6,8 +6,14 @@ Render.renderBook=function(book) {
         document.querySelector('.bookName').setAttribute('id',book.id);
         document.querySelector('.subHeading').innerHTML = Utils.getSenitizedText(book.subHeading);
         let chapterContainer = document.querySelector('.chapterContainer');
+        let i=0;
         for (let chapter of book.chapters) {
+            
             let renderedChapter = buildChapter(chapter);
+            if(i==0){
+                renderedChapter.classList.add('activeChapter');
+                i++;
+            }
             chapterContainer.appendChild(renderedChapter)
         }
         gobalBook=book;
@@ -82,8 +88,13 @@ function buildChapter(chapterContent) {
     let renderedChapter = html.body.childNodes[0];
     renderedChapter.setAttribute('id',chapterContent.id);
     renderedChapter.querySelector('.chapterTitile').innerHTML = Utils.getSenitizedText(chapterContent.chapterTitile);
+    let i=0;
     for (let lesson of chapterContent.lessons) {
         let renderedLesson = buildLeason(lesson);
+        if(i==0){
+            renderedLesson.classList.add('activeLesson');
+            i++;
+        }
         renderedChapter.appendChild(renderedLesson);
     }
     return renderedChapter;

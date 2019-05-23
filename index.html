@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pocket book</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/sidepanel_collapsed.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/userstyle.css">
     <link rel="stylesheet" href="styles/responsive.css">
@@ -14,17 +17,20 @@
 <body>
     <div class="container">
         <div class="sidepanel">
+            <div class="showHideCheckBox">
+                <input type="checkbox" name="" id="showHideChBox">
+                <label for="showHideChBox">Hide</label>
+            </div>
             <header class="header">
                 <h1 class="bookName"></h1>
                 <h2 class="subHeading"></h2>
             </header>
-            <nav class="chapterContainer">
-
-            </nav>
+            <nav class="chapterContainer"></nav>
         </div>
         <div class="pageContainer">
         </div>
     </div>
+    <script src="styles/style.js"></script>
     <script src="scripts/utils.js"></script>
     <script src="scripts/render.js"></script>
     <script src="scripts/router.js"></script>

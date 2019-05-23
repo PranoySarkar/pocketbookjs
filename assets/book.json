@@ -28,7 +28,7 @@
                 {
                     "id": "L002",
                     "name": "Why not VM",
-                    "linkToContent": "http://localhost:8080/assets/myBook/C001_L001_my.json"
+                    "linkToContent": "https://prnysarker.github.io/pocketbookjs/:8080/assets/myBook/C001_L001_my.json"
                 }
             ]
         },
