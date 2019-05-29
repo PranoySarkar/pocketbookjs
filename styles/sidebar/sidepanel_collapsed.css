@@ -21,9 +21,9 @@
 .container .sidepanel_collasped{
     grid-template-columns: 1fr;
     grid-template-rows: auto ;
-    width: 100px;
-    min-width: 100px;
-    max-width: 100px;
+    width: 10rem;
+    min-width: 10rem;
+    max-width: 10rem;
 }
 
 .container .sidepanel_collasped  .showHideCheckBox{
@@ -54,7 +54,7 @@
 
 .sidepanel_collasped .chapter .lesson {
     text-align: center;
-    padding: 10px 2px;
+    padding: 1rem 2px;
     margin: 0;
     background: none;
 
@@ -63,6 +63,6 @@
 
 .sidepanel_collasped .chapterContainer .chapterTitile {
     text-align: center;
-    padding: 10px 3px;
+    padding: 1rem 3px;
     background: none;
 }
