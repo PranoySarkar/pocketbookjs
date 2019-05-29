@@ -1,60 +1,102 @@
 {
-    "id": "B001",
-    "name": "Basics of docker",
-    "subHeading": "3rd Edition",
-    "chapters": [
-        {
-            "id": "C001",
-            "chapterTitile": "Introduction to Docker",
-            "lessons": [
-                {
-                    "id": "L001",
-                    "name": "inrtoduction",
-                    "content": {
-                        "sections": [
-                            {
-                                "type":"h2",
-                                "content":"Introduction to docker"
-                            }
-                            ,
-                            {
-                                "type": "para",
-                                "styles": ["myparastyle","none"],
-                                "content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit labore, necessitatibus illum quae laboriosam blanditiis cum eius animi minus dolorem, sapiente quod. Illo velit molestiae quam, laborum iure voluptatum optio unde nihil iste. Enim natus corporis eos aut iusto ex at, magnam numquam sed accusantium vero consectetur, sunt vel, mollitia ducimus illum dolor fuga facilis eligendi odio saepe ab dignissimos. Consequatur esse nulla ratione eligendi nihil corporis in molestias nemo consequuntur assumenda est ipsa repudiandae, vero doloribus ab culpa, aperiam architecto adipisci numquam"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "id": "L002",
-                    "name": "Why not VM",
-                    "linkToContent": "https://prnysarker.github.io/pocketbookjs/assets/myBook/C001_L001_my.json"
-                }
-            ]
-        },
-        {
-            "chapterTitile": "Installation",
-            "id": "C002",
-            "lessons": [
-                {
-                    "id": "L001",
-                    "name": "Windows"
-                },
-                {
-                    "id": "L002",
-                    "name": "Linux"
-                }
-            ]
-        }
-    ],
-    "styles":[
-        {
-            "name":"myparastyle",
-            "properties":{
-                "background":"#FFF"
-                
-            }
-           
-        }
-    ]
+	"id": "B001",
+	"name": "Basics of docker",
+	"subHeading": "3rd Edition",
+	"chapters": [
+		{
+			"id": "C001",
+			"chapterTitile": "Introduction to Docker",
+			"lessons": [
+				{
+					"id": "L001",
+					"name": "inrtoduction",
+					"content": {
+						"sections": [
+							{
+								"type": "h2",
+								"content": "Introduction to docker"
+							},
+							{
+								"type": "para",
+								"styles": [
+									"myparastyle",
+									"none"
+								],
+								"content": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit labore, necessitatibus illum quae laboriosam blanditiis cum eius animi minus dolorem, sapiente quod. Illo velit molestiae quam, laborum iure voluptatum optio unde nihil iste. Enim natus corporis eos aut iusto ex at, magnam numquam sed accusantium vero consectetur, sunt vel, mollitia ducimus illum dolor fuga facilis eligendi odio saepe ab dignissimos. Consequatur esse nulla ratione eligendi nihil corporis in molestias nemo consequuntur assumenda est ipsa repudiandae, vero doloribus ab culpa, aperiam architecto adipisci numquam"
+							}
+						]
+					}
+				},
+				{
+					"id": "L002",
+					"name": "Why not VM",
+					"linkToContent": "https://prnysarker.github.io/pocketbookjs/assets/myBook/C001_L001_my.json"
+				}
+			]
+		},
+		{
+			"chapterTitile": "Installation",
+			"id": "C002",
+			"lessons": [
+				{
+					"id": "L001",
+					"name": "Windows"
+				},
+				{
+					"id": "L002",
+					"name": "Linux"
+				}
+			]
+		},
+		{
+			"chapterTitile": "Configuration",
+			"id": "C003",
+			"lessons": [
+				{
+					"id": "L001",
+					"name": "YAM"
+				},
+				{
+					"id": "L002",
+					"name": "command line"
+				}
+			]
+		},
+		{
+			"chapterTitile": "CLI",
+			"id": "C004",
+			"lessons": [
+				{
+					"id": "L001",
+					"name": "Create"
+				},
+				{
+					"id": "L002",
+					"name": "Delete"
+				}
+			]
+		},
+				{
+			"chapterTitile": "API",
+			"id": "C005",
+			"lessons": [
+				{
+					"id": "L001",
+					"name": "Update"
+				},
+				{
+					"id": "L002",
+					"name": "remove"
+				}
+			]
+		}
+	],
+	"styles": [
+		{
+			"name": "myparastyle",
+			"properties": {
+				"background": "#FFF"
+			}
+		}
+	]
 }
