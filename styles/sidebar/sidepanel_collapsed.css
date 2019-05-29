@@ -20,10 +20,10 @@
 
 .container .sidepanel_collasped{
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4 , auto);
-    width: 5vw;
-    min-width: 7rem;
-    padding: .7rem;
+    grid-template-rows: auto ;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
 }
 
 .container .sidepanel_collasped  .showHideCheckBox{

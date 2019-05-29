@@ -1,0 +1,15 @@
+.pageContainer{
+    background: #3f51b526;
+    padding: 1rem;
+    overflow: auto;
+    flex-basis: 100%;
+}
+
+
+.pageContainer .page {
+    background: #FFF;
+    padding: 3rem 2rem;
+    max-width: 120rem;
+    margin: auto;
+    box-shadow: 1px 0px 10px 0px #0009;
+}

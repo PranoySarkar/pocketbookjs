@@ -24,7 +24,7 @@ Render.renderBook=function(book) {
 
 Render.renderPage=function (content) {
     return new Promise((resolve, reject) => {
-        let pageContainer = document.querySelector('.pageContainer');
+        let pageContainer = document.querySelector('.page');
         pageContainer.innerHTML = "";
         content.sections.forEach(eachSection => {
             switch (eachSection.type) {
@@ -65,7 +65,7 @@ Render.addStyles=function (styles) {
         let cssText='';
         styles.forEach(style=>{
             if(style.name!='' && style.name.match(/^\w+$/)){
-                let meeseeks=`.pageContainer .${style.name} { `;
+                let meeseeks=`.pageContainer .page .${style.name} { `;
                 Object.keys(style.properties).forEach(eachProperty=>{
                     meeseeks+=`${eachProperty}:${style.properties[eachProperty]};`
                 })
