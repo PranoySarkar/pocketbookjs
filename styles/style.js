@@ -5,6 +5,5 @@ document.querySelector('#showHideChBox').addEventListener('change',($event)=>{
    else{
     document.querySelector('.sidepanel').classList.remove('sidepanel_collasped');
    }
-   
-
 });
+

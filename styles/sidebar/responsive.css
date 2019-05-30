@@ -20,11 +20,14 @@
         grid-row: 1/-1;
         grid-column: 1/-1;
         margin: 1rem auto;
-        background: white;
+        background: #fffffff2;
         padding: 1rem;
-        border: 1px solid #000;
+        border: 1px solid #000000ab;
+        box-shadow: 0 0 1rem 0 #000000bd;
+        border-radius: .5rem;
         width: 90vw;
         max-width: 90vw;
+        align-self: center;
     }
     .container .pageContainer {
         grid-row: 1/-1;
@@ -51,6 +54,12 @@
         display: flex;
         align-items: center;
     }
+
+    .sidepanel .chapterContainer {
+        max-height: 80vh;
+        height: fit-content;
+    }
+
     .container .sidepanel_collasped .header {
         display: none;
     }

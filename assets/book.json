@@ -40,7 +40,8 @@
 			"lessons": [
 				{
 					"id": "L001",
-					"name": "Windows"
+					"name": "Windows",
+					"linkToContent": "https://prnysarker.github.io/pocketbookjs/assets/myBook/C002_L001.json"
 				},
 				{
 					"id": "L002",

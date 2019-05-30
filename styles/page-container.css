@@ -1,6 +1,6 @@
 .pageContainer{
     background: #3f51b526;
-    padding: 1rem;
+    padding: 0px 1rem;
     overflow: auto;
     flex-basis: 100%;
 }
@@ -10,6 +10,7 @@
     background: #FFF;
     padding: 3rem 2rem;
     max-width: 120rem;
-    margin: auto;
+    margin: 2vh auto;
     box-shadow: 1px 0px 1rem 0px #0009;
+    min-height: 96vh;
 }
